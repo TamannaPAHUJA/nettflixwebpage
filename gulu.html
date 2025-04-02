@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Login</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: black; /* Keep the existing background color */
+            background-image: url('your-background-image-url.jpg'), url('your-watermark-image-url.png'); /* Add watermark image */
+            background-repeat: no-repeat, no-repeat; /* Ensure both images do not repeat */
+            background-position: center center, center center; /* Center both images */
+            background-size: cover, contain; /* Cover for the main image, contain for watermark */
+            color: white;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+        .container {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 40px;
+            border-radius: 8px;
+            text-align: center;
+        }
+        h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+            color: #E50914; /* Netflix red */
+        }
+        input[type="text"],
+        input[type="password"] {
+            width: 100%;
+            padding: 12px;
+            margin: 10px 0;
+            border: 1px solid #999;
+            border-radius: 4px;
+        }
+        button {
+            background-color: #E50914; /* Netflix red */
+            color: white;
+            border: none;
+            padding: 12px;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 100%;
+            font-size: 16px;
+        }
+        button:hover {
+            background-color: #f03f28;
+        }
+        .link {
+            color: #ccc;
+            text-decoration: none;
+            display: block;
+            margin: 10px 0;
+        }
+        .remember-me {
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>NETFLIX</h1>
+    <p>Sign In</p>
+    
+    <input type="text" placeholder="Email or mobile number" required>
+    <input type="password" placeholder="Password" required>
+    
+    <a href="hii.html">
+        <button type="button">Sign In</button>
+    </a>
+    
+    <p>OR</p>
+    <a href="#" class="link">Use a sign-in code</a>
+    <a href="#" class="link">Forgot password?</a>
+    
+    <label class="remember-me">
+        <input type="checkbox"> Remember me
+    </label>
+    
+    <p>New to Netflix? <a href="#" class="link">Sign up now.</a></p>
+    
+    <p>This page is protected by Google reCAPTCHA to ensure you’re not a bot.<br><a href="#" class="link">Learn more.</a></p>
+</div>
+</body>
+</html>

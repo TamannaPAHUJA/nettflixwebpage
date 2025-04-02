@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix!</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #141414;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+        header {
+            width: 100%;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.8);
+            position: relative;
+        }
+        header h1 {
+            color: red;
+            font-size: 36px;
+            position: absolute;
+            top: 20px;
+            left: 20px;
+        }
+        header button {
+            background-color: red;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            font-size: 16px;
+            position: absolute;
+            top: 20px;
+            right: 150px; /* Adjusted for dropdown */
+        }
+        .language-dropdown {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background-color: white;
+            color: black;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .banner {
+            background-image: url('banner.jpg');
+            background-size: cover;
+            background-position: center;
+            padding: 100px 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+        .banner h2 {
+            font-size: 36px;
+        }
+        .banner p {
+            font-size: 20px;
+        }
+        .search-input {
+            padding: 10px;
+            width: 100%;
+            max-width: 300px;
+            margin-top: 15px;
+            border: none;
+            border-radius: 5px;
+        }
+        .search-btn {
+            background-color: #e50914;
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 20px;
+        }
+        .movie-row {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            padding: 50px 20px;
+        }
+        .movie-row img {
+            width: 150px;
+            height: 225px;
+            border-radius: 5px;
+        }
+        footer {
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.8);
+            position: relative;
+            width: 100%;
+        }
+        .contact-button {
+            background-color: red;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 10px;
+        }
+        .contact-button:hover {
+            background-color: darkred;
+        }
+    </style>
+</head>
+<body>
+<body background="C:\Users\MAHEK PAHUJA\Pictures\Screenshots\Screenshot 2025-03-23 192218.png">
+
+
+
+    <!-- Header -->
+    <header>
+        <h1>Netflix</h1>
+        <button>Sign In</button>
+        <select class="language-dropdown">
+            <option value="en">English</option>
+            <option value="es">Spanish</option>
+            <option value="fr">French</option>
+            <option value="de">German</option>
+            <option value="hi">Hindi</option>
+            <option value="ja">Japanese</option>
+        </select>
+    </header>
+
+    <!-- Main Banner -->
+    <section class="banner">
+        <h2>Unlimited movies, TV shows, and more.</h2>
+        <p>Starts at ₹149. Cancel at any time.</p>
+        <p>Ready to find your next watch?</p>
+        <input type="text" class="search-input" placeholder="Search for movies or shows">
+        <button class="search-btn">Search</button>
+    </section>
+
+    <!-- Movie Rows -->
+    <section>
+        <h3>Popular Movies</h3>
+        <div class="movie-row">
+                        <a href="C:\Users\MAHEK PAHUJA\Documents\bolly.html" target="_blank">
+                <img border="20" alt="Bollywood" src="C:\Users\MAHEK PAHUJA\Pictures\bollywood.jpeg">
+            </a>
+            <a href="C:\Users\MAHEK PAHUJA\Documents\fictinol.html" target="_blank">
+                <img border="20" alt="Fiction" src="C:\Users\MAHEK PAHUJA\Pictures\fiction.jpg">
+            </a>
+            <a href="C:\Users\MAHEK PAHUJA\Documents\hollywood.html" target="_blank">
+                <img border="20" alt="Hollywood" src="C:\Users\MAHEK PAHUJA\Pictures\hollywood.jpg">
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>Questions? Call 000-000-0000</p>
+        <p>Terms of Use | Privacy | Help</p>
+        <p>Trending Now</p>
+        <a href="contact.html" class="contact-button">Contact Form</a>
+    </footer>
+
+</body>
+</html>
